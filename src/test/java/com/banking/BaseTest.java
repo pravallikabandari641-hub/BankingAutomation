@@ -26,7 +26,7 @@ driver = new ChromeDriver(options);
 
         driver.manage().window().maximize();
 
-        driver.get("http://localhost/Banking_Application_Testing_Project/banking-app/");
+        driver.get("http://localhost/banking-app/");
     }
 
     @AfterMethod
